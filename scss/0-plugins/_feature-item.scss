@@ -1,0 +1,43 @@
+.feature-item {
+  background: green;
+  overflow: hidden;
+  height: 375px;
+
+
+  .img-feature{
+    position: relative;
+    z-index: 2;
+    display: inline;
+    width:400px;
+
+
+    h4 {
+      width: 100%;
+      position: absolute;
+      margin: 0px;
+      height: 90px;
+      background: red;
+      z-index: 10;
+
+    }
+
+  }
+  .text-feature {
+    display: inline;
+    width: 192px;
+  }
+
+
+
+}
+
+.feature-1 {
+  background: yellow;
+  margin-bottom: 50px;
+  .img-feature{
+    float: right;
+  }
+  .text-feature{
+    float: left;
+  }
+}

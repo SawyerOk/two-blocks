@@ -1,0 +1,66 @@
+.col-header {
+  border-top: 2px solid #FF3D00; }
+  .col-header h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 41px; }
+  .col-header small {
+    float: right; }
+    .col-header small a {
+      color: #FFB964; }
+    .col-header small [name="button-1"] {
+      background: #FFB964; }
+    .col-header small [name="button-2"] {
+      background: #FF3D00; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.sem-color {
+  color: #FFB964; }
+
+.main-color {
+  color: #FF3D00; }
+
+h2 {
+  text-transform: uppercase; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+#section-1 .col {
+  width: 640px;
+  float: left; }
+#section-1 .col-l {
+  margin-right: 24px; }
+#section-1 .col-r {
+  margin-left: 24px; }
+
+#section-2 {
+  display: block; }
+  #section-2 .info {
+    text-align: center; }
+  #section-2 .col {
+    width: 427px; }
+
+.main-cont {
+  width: 1328px;
+  display: inline;
+  float: left; }
+  .main-cont .col {
+    display: inline; }
+
+.aside-cont {
+  width: 672px;
+  display: inline;
+  float: right; }
+
+.container {
+  width: 2048px; }
+
+/*# sourceMappingURL=app.css.map */

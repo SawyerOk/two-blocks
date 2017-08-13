@@ -1,0 +1,23 @@
+.col-header {
+  border-top: 2px solid $main-color;
+
+  h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 41px;
+  }
+
+  small {
+    float: right;
+    a {
+      color: $sem-color;
+    }
+    [name="button-1"]{
+      background: $sem-color;
+    }
+    [name="button-2"]{
+      background: $main-color;
+    }
+  }
+
+}

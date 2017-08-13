@@ -1,0 +1,9 @@
+//Mixin for bordered in one side of element (top or bottom)
+@mixin border-ev ($position, $color, $size){
+  @if $position == bottom {
+    border-bottom : $color $size+px solid;
+  }
+  @if $position == top {
+    border-top : $color $size+px solid;
+  }
+}  

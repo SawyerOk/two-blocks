@@ -1,0 +1,14 @@
+$marg : 48/2;
+
+#section-1 {
+  .col {
+    width: ($width-main/2-$marg)+px;
+    float: left;
+  }
+  .col-l {
+    margin-right: $marg+px;
+  }
+  .col-r {
+    margin-left: $marg+px;
+  }
+}

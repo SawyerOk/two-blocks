@@ -139,14 +139,31 @@ ul {
   #section-2 .main-cont {
     padding-left: 48px;
     width: 1328px; }
-  #section-2 .info {
-    text-align: center;
-    width: 1282px; }
   #section-2 .col {
     width: 427px;
     float: left; }
     #section-2 .col .text-content {
       display: inline; }
+  #section-2 .info {
+    width: 1282px; }
+    #section-2 .info .text-content p {
+      font-size: 18px;
+      text-transform: uppercase; }
+  #section-2 .info-2 .text-content {
+    position: relative;
+    top: -5px; }
+    #section-2 .info-2 .text-content p {
+      width: 424px;
+      padding-top: 34px;
+      padding-left: 30px;
+      margin-top: 0px;
+      height: 112px;
+      background: #FFB964;
+      color: #FF3D00; }
+  #section-2 .aside-cont {
+    margin-top: 65px; }
+    #section-2 .aside-cont .aside-img-1 {
+      margin-bottom: 5px; }
 
 .main-cont {
   width: 1328px;

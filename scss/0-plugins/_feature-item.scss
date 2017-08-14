@@ -1,5 +1,4 @@
 .feature-item {
-  background: green;
   overflow: hidden;
   height: 375px;
 
@@ -12,11 +11,15 @@
 
 
     h4 {
+      padding-left: 50px;
+      padding-top: 30px;
       width: 100%;
       position: absolute;
+      height: 50%;
       margin: 0px;
+      font-size: 20px;
       height: 90px;
-      background: red;
+      background: rgba(255, 61, 0, 0.8);
       z-index: 10;
 
     }
@@ -25,6 +28,11 @@
   .text-feature {
     display: inline;
     width: 192px;
+    height: 375px;
+    p {
+      font-size: 18px;
+      margin: 0px;
+    }
   }
 
 
@@ -32,12 +40,23 @@
 }
 
 .feature-1 {
-  background: yellow;
   margin-bottom: 50px;
+  .img-feature{
+    float: left;
+  }
+  .text-feature{
+    float: right;
+    @include border-ev("bottom", $main-color, 2);
+  }
+}
+
+.feature-2 {
   .img-feature{
     float: right;
   }
   .text-feature{
+    padding-top: 115px;
     float: left;
+    @include border-ev("top", $main-color, 2);
   }
 }

@@ -1,17 +1,26 @@
 $marg : 48/2;
 
 #section-1 {
+  .main-cont{
+    h2 {
+      margin-left: 48px;
+    }
+    .col-l {
+      margin-right: $marg+px;
+        .col-header {
+          margin-left: 48px;
+        }
+    }
+  }
   .col {
     width: ($width-main/2-$marg)+px;
     float: left;
   }
-  .col-l {
-    margin-right: $marg+px;
-  }
+
   .col-r {
     margin-left: $marg+px;
   }
 
 
-  
+
 }

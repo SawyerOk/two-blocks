@@ -1,4 +1,5 @@
 ul {
+    text-transform: uppercase;
   padding-left: 0;
   overflow: hidden;
   li {
@@ -16,15 +17,20 @@ ul {
       }
 
       p {
-        padding-left: 14px;
-        padding-top: 17px;
-        padding-bottom: 17px;
+        box-sizing: content-box;
+        color: #fff;
+
+        // padding-left: 14px;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 15px;
+        // padding-bottom: 17px;
         width: 168px;
         height: 44px;
         margin: 0;
         position: relative;
 
-        font-size: 10px;
+        font-size: 15px;
         line-height: 1em;
         top: -48px;
         z-index: 5;
@@ -37,6 +43,15 @@ ul {
       width: 312px;
       height: 188px;
       background: $sem-color;
+      padding-left: 41px;
+      padding-top: 43px;
+      p {
+        font-size: 17px;
+
+      }
+      time {
+        font-size: 17px;
+      }
     }
   }
 }

@@ -1,10 +1,19 @@
 #section-2 {
+  .main-cont{
+    padding-left: 48px;
+    width: 1328px;
+  }
   display: block;
   .info {
     text-align: center;
+    width: 1282px;
   }
   .col {
-
     width: 427px;
+    float: left;
+    .text-content{
+      display: inline;
+    }
+
   }
 }
